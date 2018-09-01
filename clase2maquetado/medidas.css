@@ -1,0 +1,49 @@
+html {
+	font-size: 18px; /* Hago override de la font-size gral*/
+}
+
+body {
+	width: 800px;
+	height: auto;
+	background-color: #00202f;
+	margin: auto;
+}	
+
+#caja1 {
+	width: 10rem;
+	height: 350px;
+	background-color: #0099ff;
+}
+
+#contenedor{
+	width : 500px;
+	height : 400px;
+	background-color : darkred;
+}
+
+#caja2 {
+	width:50%;
+	height: 300px;
+	background-color: green;
+}
+
+p {
+	font-family: arial;
+	color: #fff;
+	line-height: 22px;
+	font-size: 1rem; /* el rem se basa en el font-size del html root*/
+}
+
+.textos {
+	font-size: 8px;
+	width: 700px;
+	height: auto;
+	padding: 10px;
+	background-color: green;
+}
+
+.textos p {
+	color: yellow;
+	font-family: verdana;
+	font-size: 1em;
+}

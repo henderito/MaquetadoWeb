@@ -1,0 +1,48 @@
+body {
+	width: 1100px;
+	height: 1000px;
+	background-color: #5b0f56;
+	margin: auto;
+}
+
+h1 {
+	font-family: verdana;
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 1px 1px 10px black; /*manejo la orientacion con 3 coordenadas (1- Separacion que va a tener 
+	la sombra del texto - Positivo va a la derecha, Negativo a la izq) (2- Desplazamiento de arriba hacia abajo, Positivo 
+	la sombra va para abajo) (3- Difuminado y tamaño que va a tener la sombra)*/
+}
+/* border: puedo setear que sea top bottom left right,
+ es la linea que rodea una caja*/
+/* padding: es el espacio que va desde el borde hacia el inicio del contenido
+ de la caja - RELLENO*/
+/* margin: es el espacio que hay desde el borde hacia afuera, permitiendome
+ separar un elemento de otro*/
+#bloque1 {
+	width: 50%;
+	height: 300px;
+	background-color: pink;
+	/* ancho - estilo - color (el orden no altera igualmente)*/
+	/* estilos: solid (solido), double (dos lineas), dotted (punteado)*/
+	/*border: 3px solid black;*/
+	border-top: 5px solid black;
+	border-bottom: 3px dotted yellow;
+	/* vertical - horizontal (si hay 2), coordenadas de reloj empezando de arriba si hay 4
+	 con 1 aplica a todos*/
+	padding: 20px 50px;
+	margin: 50px;
+}
+
+#bloque2 {
+	width: 50%;
+	height: 300px;
+	background-color: purple;
+}
+
+#bloque3 {
+	width: 50%;
+	height: 300px;
+	background-color: yellow;
+}

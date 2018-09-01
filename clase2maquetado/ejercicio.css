@@ -1,0 +1,47 @@
+body {
+	height: 1100px;
+	width: 1100px;
+	margin: auto;
+}
+header {
+	background-color: black;
+	height: 200px;
+	width: 1100px;
+}
+
+nav {
+	background-color: purple;
+	height: 50px;
+	width: 1100px;
+}
+
+main { 
+	height: 1100px;
+	width: 1100px;
+	box-sizing: border-box;
+	background-color: black;
+}
+
+#bloque1 {
+	float: left;
+	width: 25%;
+	background-color: pink;
+}
+
+#bloque2 {
+	float: left;
+	width: 50%;
+	background-color: green;
+}
+
+#bloque3 {
+	float: left;
+	width: 25%;
+	background-color: pink;
+}
+
+footer {
+	width: 1100px;
+	height: 20px;
+	background-color: darkgrey;
+}
