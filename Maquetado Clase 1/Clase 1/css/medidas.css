@@ -1,0 +1,26 @@
+html{
+	font-size: 50px; 
+}
+
+body{
+	background-color:#ffaaff;
+	width: 1100px;
+}
+
+p{
+	font-family: arial;
+	font-size: 1rem;
+}
+
+#contenedor{
+	background-color: brown;
+	width: 50%;
+	height: auto;
+	/*font-size: 20px;*/
+}
+
+#contenedor p{
+	font-size: 1em; 
+}
+
+

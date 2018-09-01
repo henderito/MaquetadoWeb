@@ -1,0 +1,82 @@
+@font-face{ font-family: Rockout; 
+	src:url(../fuentes/Rockout.otf); }
+
+
+
+
+body{
+	background-color:#FFC;
+	width:1100px;
+	height:1000px;
+	margin:auto;
+}
+
+h3{
+	font-family: Rockout;
+}
+
+
+
+
+
+
+
+
+
+
+h1{
+	font-family: 'Jua', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+h1{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#6bb403;
+	text-align:center;
+	text-decoration:underline;
+}
+
+h3{
+    font-family:'Rammetto One', cursive;
+    font-size: 25px;
+}
+
+h2{
+	font-family:Verdana, Geneva, sans-serif;
+	color:#616060;
+	text-align:left;
+}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#000;
+	font-size:16px;
+	text-align:justify;
+	line-height:20px;
+}
+
+.goo{
+    font-family: Rockout;
+    font-size: 20px;
+}
+
+
+figcaption {
+    font-family: arial, helvetica, sans-serif;
+	color: black;
+	font-size: 16px;
+
+}
+
+.f2 img {
+	width: 700px;
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>MAQUETADO CSS</title>
+<link href="css/maquetado.css" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Rammetto+One&amp;subset=latin-ext" rel="stylesheet">
+</head>
+
+<body>
+
+<h1>FUENTES y TIPOGRAFIAS</h1>
+<h2>Fuente descargada o compradas</h2>
+
+<p>CSS define numerosas propiedades para modificar la apariencia del texto. A pesar de que no dispone de tantas posibilidades como los lenguajes y programas específicos para crear documentos impresos, CSS permite aplicar estilos complejos y muy variados al texto de las páginas web.</p>
+
+<p>La propiedad básica que define CSS relacionada con la tipografía se denomina color y se utiliza para establecer el color de la letra. Aunque el color por defecto del texto depende del navegador, todos los navegadores principales utilizan el color negro. Para establecer el color de letra de un texto, se puede utilizar cualquiera de las cinco formas que incluye CSS para definir un color.</p>
+
+<p>Los navegadores muestran el texto de las páginas web utilizando los tipos de letra instalados en el ordenador o dispositivo del propio usuario. De esta forma, si el diseñador indica en la propiedad font-family que el texto debe mostrarse con un tipo de letra especialmente raro o rebuscado, casi ningún usuario dispondrá de ese tipo de letra.</p>
+
+<p>Para evitar el problema común de que el usuario no tenga instalada la fuente que quiere utilizar el diseñador, CSS permite indicar en la propiedad font-family más de un tipo de letra. El navegador probará en primer lugar con el primer tipo de letra indicado. Si el usuario la tiene instalada, el texto se muestra con ese tipo de letra.</p>
+
+<p>Si el usuario no dispone del primer tipo de letra indicado, el navegador irá probando con el resto de tipos de letra hasta que encuentre alguna fuente que esté instalada en el ordenador del usuario. Evidentemente, el diseñador no puede indicar para cada propiedad font-family tantos tipos de letra como posibles fuentes parecidas existan.</p>
+
+<p>Para solucionar este problema se utilizan las familias tipográficas genéricas. Cuando la propiedad font-family toma un valor igual a sans-serif, el diseñador no indica al navegador que debe utilizar la fuente Arial, sino que debe utilizar "la fuente que más se parezca a Arial de todas las que tiene instaladas el usuario". Por todo ello, el valor de font-family suele definirse como una lista de tipos de letra alternativos separados por comas. El último valor de la lista es el nombre de la familia tipográfica genérica que más se parece al tipo de letra que se quiere utilizar.</p>
+
+<h3>Tipografía de Google</h3>
+    <p class="goo">Esta es una tipografía propia...Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quibusdam dolorum, illo voluptatem non vel sequi. Nulla amet, debitis, quibusdam nisi sit quis iure eius nostrum recusandae suscipit alias omnis.</p>
+<hr>
+<h2>Etiqueta "figure"</h2>
+
+<figure>
+	<img src="imagenes\B737-700.png" alt="avion de delta">
+	<figcaption>Imagen de un 737 de la empresa Delta</figcaption>
+</figure>
+
+<figure class="f2">
+	<img src="imagenes\737.jpg" alt="avion boeing">
+	<figcaption>Imagen de un Boeing 737</figcaption>
+</figure>
+
+</body>
+</html>
